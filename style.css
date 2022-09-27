@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins&display=swap" rel="stylesheet');
+
+*{
+  margin: 0px 0px;
+  padding: 0px 0px ;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+       background-size: cover;
+       display: inline-block;
+  
+  }
+  .avatar{
+    position: absolute;
+    left: 675px;
+    top:100px;
+  }
+
+  .logo{
+    position: absolute;
+    left: 700px;
+    top:-10px;
+  }
+  .logo:hover{
+    opacity: .5;
+  }
+
+  .inicio{
+    position: absolute;
+    left: 380px;
+    top:70px;
+  }
+  .somos{
+    position: absolute;
+    left: 500px;
+    top:70px;
+  }
+  .producion{
+    position: absolute;
+    left: 850px;
+    top:70px;
+  }
+  .cursos{
+    position: absolute;
+    left: 1100px;
+    top:70px;
+  }
+  nav{
+    height: 100px;
+    width: 1200px;
+    background-color: rebeccapurple;
+    border-radius: 150px;
+    position: absolute;
+    left: 200px;
+}
