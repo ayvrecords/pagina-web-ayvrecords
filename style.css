@@ -10,6 +10,32 @@ body {
        display: inline-block;
   
   }
+  
+  .menu{
+    list-style: none;
+    padding: 0;
+    background:blueviolet ;
+    width: 100%;
+    border-radius: 150px;
+    position: relative;
+    left: 450px;
+    top:70px;
+  }
+  .menu li{
+    display:inline-block;
+    text-align: center;
+  }
+  .menu li a{
+    color:#fff;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+  }
+  .menu li a:hover{
+    color:aqua;
+   background: blue;
+  }
+
   .avatar{
     position: absolute;
     left: 675px;
@@ -18,38 +44,13 @@ body {
 
   .logo{
     position: absolute;
-    left: 700px;
+    left: 670px;
     top:-10px;
+    
   }
   .logo:hover{
     opacity: .5;
   }
 
-  .inicio{
-    position: absolute;
-    left: 380px;
-    top:70px;
-  }
-  .somos{
-    position: absolute;
-    left: 500px;
-    top:70px;
-  }
-  .producion{
-    position: absolute;
-    left: 850px;
-    top:70px;
-  }
-  .cursos{
-    position: absolute;
-    left: 1100px;
-    top:70px;
-  }
-  nav{
-    height: 100px;
-    width: 1200px;
-    background-color: rebeccapurple;
-    border-radius: 150px;
-    position: absolute;
-    left: 200px;
-}
+
+  
