@@ -24,6 +24,7 @@ body {
     position: relative;
     left: 450px;
     top:70px;
+    transition:all .1s ease ;
   }
   .menu li{
     display:inline-block;
@@ -103,6 +104,6 @@ form input[type="submit"]{
 }
 form input[type="submit"]:hover{
   background:#1cc6c9 ;
-  color:#fff
+  color:#fff;
 }
 
