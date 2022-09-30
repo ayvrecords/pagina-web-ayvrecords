@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins&display=swap" rel="stylesheet');
 
 *{
-  margin: 0px 0px;
-  padding: 0px 0px ;
+  margin: 0;
+  padding: 0;
+ -webkit-box-sizing: border-box;
+ -moz-box-sizing:border-box ;
+ box-sizing: border-box;
+
 }
 body {
     font-family: 'Poppins', sans-serif;
@@ -15,7 +19,7 @@ body {
     list-style: none;
     padding: 0;
     background:blueviolet ;
-    width: 100%;
+    width: 590px;
     border-radius: 150px;
     position: relative;
     left: 450px;
@@ -54,8 +58,8 @@ body {
 form{
   background:#fff;
   width: 500px;
-  margin: 20px auto;
-  padding: 20px;
+  margin: 100px 216px;
+  padding: 20px ;
   border-radius: 5px;
 }
 form input{
@@ -70,6 +74,14 @@ form textarea{
   border:1px solid #226fc1
 }
 
+form  input:hover{
+  border:3px solid #226fc1
+}
+
+form textarea:hover{
+    border:3px solid #226fc1
+}
+
 form textarea{
   min-height: 120px;
   min-width: 100%;
@@ -78,4 +90,19 @@ form textarea{
 
 }
 
-  
+form input[type="submit"]{
+  width: 200px;
+  margin :0 auto;
+  background: none;
+  border :1px solid #226fc1;
+  color:#1cc6c9;
+  padding: 10px ;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 3px;
+}
+form input[type="submit"]:hover{
+  background:#1cc6c9 ;
+  color:#fff
+}
+
